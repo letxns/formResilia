@@ -44,7 +44,6 @@ input {
     width: auto;
 }
 
-
 .fa-brands {
     display: inline-block;
     color: rgba(3, 3, 3, 0.897);
@@ -53,6 +52,10 @@ input {
 .formBody {
     font-size: 1em;
     padding: 1.5%;
+}
+
+.icons a {
+    margin-left: 5px;
 }
 
 .submitButton {
@@ -94,7 +97,7 @@ input {
     margin-right: 2%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     #container {
         display: flex;
         flex-direction: column;
@@ -102,6 +105,10 @@ input {
         justify-content: center;
         width: 90%;
         margin: 2%;
+    }
+
+    .birthYear {
+        width: 50%;
     }
 
     .sectionRight {
