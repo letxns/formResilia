@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 4%;
+}
+
+input {
+    background-color: rgb(234, 234, 234);
+    border: none;
+    border-radius: 5px 5px;
+    padding: 8px;
+    margin: 10px 0 10px 0;
+    width: 90%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formParagraph {
+    margin: 1%;
+    font-size: 1em;
+}
+
+#titleRight {
+    font-family: Roboto, 'IBM Plex Sans KR', sans-serif;
+    font-size: 2em;
+    margin: 1%;
+}
+
+.birthYear {
+    width: auto;
+}
+
+
+.fa-brands {
+    display: inline-block;
+    color: rgba(3, 3, 3, 0.897);
+}
+
+.formBody {
+    font-size: 1em;
+    padding: 1.5%;
+}
+
+.submitButton {
+    font-size: 1em;
+    margin-top: 5px;
+    width: auto;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 208, 0);
+    border: none;
+    border-radius: 5px 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    font-size: 1em;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.sectionLeft {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.sectionLeft img {
+    width: 90%;
+}
+
+.sectionRight {
+    align-items: center;
+    width: 100%;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 1%;
+    background-color: rgb(255, 208, 0);
+    border-radius: 15px 20px 20px 20px;
+    box-shadow: 2px 3px 10px 10px rgba(255, 208, 0, 0.342);
+    margin-right: 2%;
+}
+
+@media (max-width: 760px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: 2%;
+    }
+
+    .sectionRight {
+        padding: 2%;
+    }
+}
